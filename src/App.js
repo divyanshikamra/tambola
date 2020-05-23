@@ -8,8 +8,8 @@ import lahs from './lahs.jpeg'
 class App extends Component{
   state =  {
     todos : [
-      // {id : 1, content : "full house 1 -  priyansh !"},
-      // {id : 2, content : "first line - gautam !"}
+      {id : 1, content : "full house 1 -  priyansh !"},
+      {id : 2, content : "first line - gautam !"}
     ],
     todos1 : [
       // {id : 1, content : "last line!"},
@@ -23,7 +23,7 @@ class App extends Component{
       return todo.id !== id
     })
     this.setState({
-      todos : todos
+      todos
     })
   } 
   deletetodo1 = (id) => {
@@ -31,16 +31,18 @@ class App extends Component{
       return todo.id !== id
     })
     this.setState({
-      todos1 : todos1
+      todos1
     })
   } 
   addtodo = (todo) =>{
+    todo.id = Math.random()
     let todos = [...this.state.todos, todo]
     this.setState({
       todos : todos
     })
   }
   addtodo1 = (todo) =>{
+    todo.id = Math.random()
     let todos1 = [...this.state.todos1, todo]
     this.setState({
       todos1 : todos1
