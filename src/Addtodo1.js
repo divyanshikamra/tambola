@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-class Addtodo extends Component{
+class Addtodo1 extends Component{
     state = {
         content : null
     }
@@ -11,7 +11,7 @@ class Addtodo extends Component{
     }
     handlesubmit = (e) =>{
         e.preventDefault();
-        this.props.addtodo(this.state)
+        this.props.addtodo1(this.state)
         this.setState({
             content:''
         })
@@ -19,7 +19,7 @@ class Addtodo extends Component{
     render(){
         return(
             <form onSubmit={this.handlesubmit}>
-                <label>Update Winners : </label>
+                <label>Update Awards : </label>
                 <input type="text" id="content" onChange={this.handlechange} value={this.state.content} />
                 <button className="right">Add</button>
             </form>
@@ -27,4 +27,4 @@ class Addtodo extends Component{
     }
 }
 
-export default Addtodo
+export default Addtodo1
