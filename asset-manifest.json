@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tambola/static/css/main.75cfbf6a.chunk.css",
-    "main.js": "/tambola/static/js/main.6e2fe95b.chunk.js",
-    "main.js.map": "/tambola/static/js/main.6e2fe95b.chunk.js.map",
+    "main.js": "/tambola/static/js/main.8852f45c.chunk.js",
+    "main.js.map": "/tambola/static/js/main.8852f45c.chunk.js.map",
     "runtime-main.js": "/tambola/static/js/runtime-main.b341880a.js",
     "runtime-main.js.map": "/tambola/static/js/runtime-main.b341880a.js.map",
     "static/js/2.0f9d687a.chunk.js": "/tambola/static/js/2.0f9d687a.chunk.js",
     "static/js/2.0f9d687a.chunk.js.map": "/tambola/static/js/2.0f9d687a.chunk.js.map",
     "index.html": "/tambola/index.html",
-    "precache-manifest.f469d7592d6ffcf1df4c5fe091eb8490.js": "/tambola/precache-manifest.f469d7592d6ffcf1df4c5fe091eb8490.js",
+    "precache-manifest.08d51a2b9595b0f7410bb26ae59119e0.js": "/tambola/precache-manifest.08d51a2b9595b0f7410bb26ae59119e0.js",
     "service-worker.js": "/tambola/service-worker.js",
     "static/css/main.75cfbf6a.chunk.css.map": "/tambola/static/css/main.75cfbf6a.chunk.css.map",
     "static/js/2.0f9d687a.chunk.js.LICENSE.txt": "/tambola/static/js/2.0f9d687a.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b341880a.js",
     "static/js/2.0f9d687a.chunk.js",
     "static/css/main.75cfbf6a.chunk.css",
-    "static/js/main.6e2fe95b.chunk.js"
+    "static/js/main.8852f45c.chunk.js"
   ]
 }

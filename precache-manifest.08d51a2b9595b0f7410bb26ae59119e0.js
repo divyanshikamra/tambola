@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f42fb492a6300e32fbdcfed410288442",
+    "revision": "6f972e5e6ead9481195e58b7e6938efc",
     "url": "/tambola/index.html"
   },
   {
-    "revision": "5315390eccb0235e6a90",
+    "revision": "21cd4180ecf7e789d33e",
     "url": "/tambola/static/css/main.75cfbf6a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tambola/static/js/2.0f9d687a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5315390eccb0235e6a90",
-    "url": "/tambola/static/js/main.6e2fe95b.chunk.js"
+    "revision": "21cd4180ecf7e789d33e",
+    "url": "/tambola/static/js/main.8852f45c.chunk.js"
   },
   {
     "revision": "492532a8aa08a5048166",
