@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tambola/precache-manifest.f469d7592d6ffcf1df4c5fe091eb8490.js"
+  "/tambola/precache-manifest.08d51a2b9595b0f7410bb26ae59119e0.js"
 );
 
 self.addEventListener('message', (event) => {
