@@ -4,6 +4,7 @@ import Addtodo from './Addtodo'
 import Todos1 from './Todos1'
 import Addtodo1 from './Addtodo1'
 import lahs from './lahs.jpeg'
+import gamearc from './gamearc.png'
 
 class App extends Component{
   state =  {
@@ -51,7 +52,10 @@ class App extends Component{
   render(){
   return (
     <div className="todo-app">
-      <img src={lahs} alt="lahs-img"></img>
+    <div className="center">
+      <img className="center" src={lahs} alt="lahs-img"></img>
+      <img width={260} height={260} src={gamearc} alt="gamearc-img"></img>
+      </div>
       <h1 className="todo-heading center red-text">
         Tambola
       </h1>

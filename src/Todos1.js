@@ -4,9 +4,9 @@ const Todos1 = ({todos1, deletetodo1}) =>{
     const todo1list = todos1.length ? (
         todos1.map(todo =>{
             return <div className="collection-item" key='todo.id'>
-                <p>{todo.content}</p>
-                <button onClick={() => {deletetodo1(todo.id)}}>Remove</button>
-                
+                <p>{todo.content}
+                <button className="right" onClick={() => {deletetodo1(todo.id)}}>Remove</button>
+                </p>
             </div>
         })
     ) : (
