@@ -54,7 +54,7 @@ class App extends Component{
     <div className="todo-app">
     <div className="center">
       <img className="center" src={lahs} alt="lahs-img"></img>
-      <img width={260} height={260} src={gamearc} alt="gamearc-img"></img>
+      <img width={259} height={259} src={gamearc} alt="gamearc-img"></img>
       </div>
       <h1 className="todo-heading center red-text">
         Tambola
